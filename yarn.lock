@@ -2622,6 +2622,28 @@ lazystream@^1.0.0:
   dependencies:
     readable-stream "^2.0.5"
 
+leaflet-draw@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/leaflet-draw/-/leaflet-draw-1.0.4.tgz#45be92f378ed253e7202fdeda1fcc71885198d46"
+  integrity sha512-rsQ6saQO5ST5Aj6XRFylr5zvarWgzWnrg46zQ1MEOEIHsppdC/8hnN8qMoFvACsPvTioAuysya/TVtog15tyAQ==
+
+leaflet-engine@>=0.4.2:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/leaflet-engine/-/leaflet-engine-0.4.5.tgz#5692a83921814f9087eca24857540747458d4a24"
+  integrity sha512-EIuC/PWPMs/uSvZUmUmPIUwhPiye9pwqWhwz3eDMHbiDU2K+uNe4gFwjPYOG5Hsm7Ztc4FCFgM2+X9bZm7YQZg==
+
+leaflet-markercluster@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/leaflet-markercluster/-/leaflet-markercluster-0.2.2.tgz#29a4876b3c9a9b631a7f1f6289753b8f74f2290c"
+  integrity sha512-1hldmxVdFX4jDoZIq00HIGAgL5PfzbHggQ2BYp1+bJKzhyBZHN50LXPm5JxCFftiBfJ8KWe5CGMHEpsCuLjcWg==
+  dependencies:
+    leaflet-engine ">=0.4.2"
+
+leaflet@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.3.tgz#52ec436954964e2d3d39e0d433da4b2500d74414"
+  integrity sha512-iB2cR9vAkDOu5l3HAay2obcUHZ7xwUBBjph8+PGtmW/2lYhbLizWtG7nTeYht36WfOslixQF9D/uSIzhZgGMfQ==
+
 lilconfig@^2.0.3, lilconfig@^2.0.5, lilconfig@^2.0.6:
   version "2.0.6"
   resolved "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.6.tgz"
@@ -3340,6 +3362,14 @@ pinia@>=2.0.27:
   version "2.0.27"
   resolved "https://registry.npmjs.org/pinia/-/pinia-2.0.27.tgz"
   integrity sha512-nOnXP0OFeL8R4WjAHsterU+11vptda643gH02xKNtSCDPiRzVfRYodOLihLDoa0gL1KKuQKV+KOzEgdt3YvqEw==
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+    vue-demi "*"
+
+pinia@^2.0.29:
+  version "2.0.29"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.29.tgz#b7e672980fdb14e03839e8139ce55ca97843679d"
+  integrity sha512-5z/KpFecq/cIgfeTnulJXldiLcTITRkTe3N58RKYSj0Pc1EdR6oyCdnf5A9jLoVwBqX5LtHhd0kGlpzWvk9oiQ==
   dependencies:
     "@vue/devtools-api" "^6.4.5"
     vue-demi "*"
